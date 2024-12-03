@@ -1,0 +1,1036 @@
+.landing-page {
+  background-color: #ffefe7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.landing-page .div {
+  background-color: #FFF;
+  width: 18000px;
+  height: 3046px;
+  position: relative;
+}
+
+.landing-page .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 1897px;
+  top: 1px;
+  left: 0;
+}
+
+.landing-page .body { 
+  position: absolute;
+  width: 1910px;
+  height: 1674px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page.dange{ 
+  position: absolute;
+  width: 1910px;
+  height: 1774px;
+  left: 0;
+  right: 10px
+}
+
+
+.landing-page .rectangle {
+  position: absolute;
+  width: 1910px;
+  height: 78px;
+  top: 0;
+  left: 0;
+}
+
+
+.landing-page .offer {
+  position: absolute;
+  width: 1615px;
+  height: 700px;
+  top: 2320px;
+  left: 133px;
+}
+
+.landing-page .overlap-group {
+  position: absolute;
+  width: 482px;
+  height: 62px;
+  top: -1px;
+  left: 594px;
+}
+
+/* DataBase */
+.product-container {
+  display: flex;
+  flex-wrap: nowrap; /* Menghindari baris baru */
+  overflow-x: auto; /* Scroll horizontal */
+  gap: 20px; /* Jarak antar produk */
+  padding: 50px;
+  scroll-behavior: smooth; /* Animasi scroll halus */
+  padding-top: 200px;
+  padding-left: 120px;
+}
+
+.text-wrap201 {
+  font-size: 45px; /* Ukuran font lebih besar untuk judul utama */
+  font-weight: bold; /* Membuat font lebih tebal */
+  margin-bottom: 20px; /* Jarak ke bawah produk */
+  text-align: center; /* Teks rata tengah */
+  color: #333; /* Warna teks */
+  font-family: 'Arial', sans-serif; /* Font judul */
+  width: 100%; /* Pastikan mengambil lebar penuh */
+  padding-top: 1290px;
+
+}
+
+
+.product {
+  flex: 0 0 auto; /* Elemen tetap dengan ukuran yang sudah ditentukan */
+  width: 400px; /* Lebar produk diperbesar lagi */
+  background: #f9f9f9;
+  padding: 25px; /* Padding lebih besar */
+  border-radius: 12px; /* Sudut lebih membulat */
+  text-align: center;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15); /* Bayangan lebih kuat */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek animasi saat hover */
+}
+.product:hover {
+  transform: scale(1.1); /* Memperbesar lebih besar saat hover */
+  box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar saat hover */
+}
+.product img {
+  width: 100%; /* Lebar gambar sesuai kontainer */
+  height: 300px; /* Gambar lebih tinggi */
+  object-fit: cover; /* Mempertahankan rasio gambar */
+  border-radius: 12px;
+  margin-bottom: 15px; /* Jarak gambar dengan informasi produk */
+}
+.product-info h2 {
+  font-size: 26px; /* Ukuran judul lebih besar */
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.product-info p {
+  font-size: 20px; /* Ukuran deskripsi lebih besar */
+  margin: 10px 0;
+}
+
+.product-info {
+  font-family: 'Arial', sans-serif; /* Ganti dengan font yang kamu inginkan */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-info p {
+  font-family: 'Courier New', monospace; /* Ganti dengan font lain untuk paragraf */
+}
+
+
+/*END Database*/
+
+.landing-page .text-wrapper {
+  height: 60px;
+  top: 0;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+  padding-left: 20px; /* Gunakan padding kiri untuk menggeser teks */
+  padding-right: 0;   /* Hapus padding kanan jika tidak diperlukan */
+  position: absolute;
+  text-align: left; /* Menyelaraskan teks ke kiri */
+  display: flex;
+}
+
+
+.landing-page .line {
+  position: absolute;
+  width: 482px;
+  height: 9px;
+  top: 53px;
+  left: 0;
+  object-fit: cover;
+}
+
+.landing-page .overlap-2 {
+  position: absolute;
+  width: 340px;
+  height: 526px;
+  top: 182px;
+  left: -4px;
+  background-image: url(./img/rectangle-9-1.svg);
+  background-size: 100% 100%;
+}
+
+.landing-page .image {
+  width: 146px;
+  height: 123px;
+  top: 44px;
+  left: 95px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .p {
+  position: absolute;
+  width: 267px;
+  height: 268px;
+  top: 176px;
+  left: 35px;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.landing-page .overlap-3 {
+  position: absolute;
+  width: 340px;
+  height: 526px;
+  top: 182px;
+  left: 425px;
+  background-image: url(./img/rectangle-10-1.svg);
+  background-size: 100% 100%;
+}
+
+.landing-page .img {
+  width: 126px;
+  height: 108px;
+  top: 52px;
+  left: 110px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .text-wrapper-2 {
+  width: 267px;
+  height: 268px;
+  top: 176px;
+  left: 36px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+  position: absolute;
+  font-family: "League Spartan", Helvetica;
+  letter-spacing: 0;
+}
+
+.landing-page .overlap-group-2 {
+  position: absolute;
+  width: 340px;
+  height: 526px;
+  top: 182px;
+  left: 854px;
+  background-image: url(./img/rectangle-11-1.svg);
+  background-size: 100% 100%;
+}
+
+.landing-page .image-2 {
+  position: absolute;
+  width: 113px;
+  height: 87px;
+  top: 61px;
+  left: 112px;
+  object-fit: cover;
+}
+
+.landing-page .text-wrapper-3 {
+  width: 267px;
+  height: 268px;
+  top: 176px;
+  left: 37px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+  position: absolute;
+  font-family: "League Spartan", Helvetica;
+  letter-spacing: 0;
+}
+
+.landing-page .overlap-4 {
+  position: absolute;
+  width: 340px;
+  height: 526px;
+  top: 182px;
+  left: 1283px;
+  background-image: url(./img/rectangle-12-1.svg);
+  background-size: 100% 100%;
+}
+
+.landing-page .image-3 {
+  width: 104px;
+  height: 104px;
+  top: 53px;
+  left: 116px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .text-wrapper-4 {
+  width: 267px;
+  height: 268px;
+  top: 176px;
+  left: 34px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+  position: absolute;
+  font-family: "League Spartan", Helvetica;
+  letter-spacing: 0;
+}
+
+.landing-page .desain-tanpa-judul {
+  position: absolute;
+  width: 1598px;
+  height: 702px;
+  top: 157px;
+  left: 161px;
+  object-fit: cover;
+}
+
+.landing-page .overlap-5 {
+  position: absolute;
+  width: 1900px;
+  height: 715px;
+  top: 3251px;
+  left: 0;
+  background-image: url(./img/rectangle-13.svg);
+  background-size: 100% 100%;
+}
+
+.landing-page .overlap-6 {
+  position: absolute;
+  width: 661px;
+  height: 437px;
+  top: 0;
+  left: 35px;
+}
+
+.landing-page .whatsapp-image {
+  position: absolute;
+  width: 611px;
+  height: 219px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.landing-page .text-wrapper-5 {
+  width: 544px;
+  height: 240px;
+  top: 197px;
+  left: 117px;
+  font-weight: 400;
+  color: #644531;
+  font-size: 22px;
+  line-height: 26.4px;
+  position: absolute;
+  font-family: "League Spartan", Helvetica;
+  letter-spacing: 0;
+}
+
+.landing-page .whatsapp-image-2 {
+  width: 847px;
+  height: 448px;
+  top: 189px;
+  left: 1060px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .service-contact-us {
+  position: absolute;
+  height: 180px;
+  top: 188px;
+  left: 861px;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 600;
+  color: #432613;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.landing-page .contact-business {
+  position: absolute;
+  height: 24px;
+  top: 482px;
+  left: 152px;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 400;
+  color: #644531;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.landing-page .span {
+  font-weight: 700;
+}
+
+.landing-page .text-wrapper-6 {
+  font-weight: 500;
+}
+
+.landing-page .text-wrapper-7 {
+  position: absolute;
+  height: 48px;
+  top: 97px;
+  left: 860px;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 700;
+  color: #644531;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+.landing-page .header {
+  position: fixed;
+  width: 1920px;
+  height: 103px;
+  top: -14px;
+  left: 0;
+}
+
+.landing-page .overlap-7 {
+  position: relative;
+  height: 103px;
+}
+
+.landing-page .overlap-group-wrapper {
+  position: absolute;
+  width: 1920px;
+  height: 103px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .overlap-group-3 {
+  position: relative;
+  height: 89px;
+  top: 14px;
+}
+
+.landing-page .rectangle {
+  position: absolute;
+  width: 1900px;
+  height: 78px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .toppng-com-shopping {
+  position: absolute;
+  width: 74px;
+  height: 60px;
+  top: 5px;
+  left: 1630px;
+  object-fit: cover;
+}
+
+.landing-page .text-wrapper-8 a {
+  position: absolute;
+  height: 24px;
+  top: 24px;
+  left: 848px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #5c3f2c;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+  text-decoration: none;
+  display: block;
+}
+
+.landing-page .text-wrapper-9 a {
+  left: 1038px;
+  color: #5b3f2b;
+  position: absolute;
+  height: 24px;
+  top: 24px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+  text-decoration: none;
+  display: block;
+}
+
+.landing-page .text-wrapper-10 a {
+  left: 1200px;
+  color: #5c3f2c;
+  position: absolute;
+  height: 24px;
+  top: 24px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+  text-decoration: none;
+  display: block;
+}
+
+.landing-page .whatsapp-image-3 {
+  width: 310px;
+  height: 89px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .rectangle-2 {
+  position: absolute;
+  width: 508px;
+  height: 54px;
+  top: 12px;
+  left: 298px;
+}
+
+.landing-page .image-4 {
+  width: 56px;
+  height: 69px;
+  top: 2px;
+  left: 731px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.landing-page .image-5 {
+  width: 68px;
+  height: 71px;
+  top: 21px;
+  left: 1766px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.menu-icon {
+  align-items: center;
+  font-size: 50px;
+  display: none;
+  position: absolute; /* Atau absolute, tergantung konteks */
+  z-index: 10; /* Pastikan z-index lebih tinggi dari gambar */
+  width: 68px;
+  height: 71px;
+  top: 21px;
+  left: 1000px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.nav nav {
+  display: flex;
+  align-items: center;
+  padding:  1rem  2rem;
+}
+
+
+@media (max-width: 320px) {
+
+  .landing-page .text-wrapper-9 a {
+    left: 1038px;
+    color: #5b3f2b;
+    position: absolute;
+    height: 24px;
+    top: 24px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+    text-decoration: none;
+    display: none;
+  }
+
+  .landing-page .text-wrapper-8 a {
+    left: 1038px;
+    color: #5b3f2b;
+    position: absolute;
+    height: 24px;
+    top: 24px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+    text-decoration: none;
+    display: none;
+  }
+
+  .landing-page {
+    background-color: #ffefe7;
+    display: flex;
+    flex-direction: column; /* Ubah menjadi column untuk layout vertikal */
+    align-items: center; /* Pusatkan konten secara horizontal */
+    width: 100%;
+  }
+  
+  .landing-page .div {
+    background-color: #ffefe7;
+    width: 1930px;
+    height: 3046px;
+    position: relative;
+  }
+  
+  
+  .landing-page .desain-tanpa-judul {
+  position: absolute;
+  width: 1050px;
+  height: auto;
+  transform: translateX(680px); /* Pindahkan gambar ke kiri */
+  object-fit: cover;
+  }
+
+  .landing-page .overlap-4 {
+    position: absolute;
+    width: 340px;
+    height: 526px;
+    top: 182px;
+    left: 1283px;
+    background-image: url(./img/rectangle-12-1.svg);
+    background-size: 100% 100%;
+  }
+
+  .landing-page .body { 
+    position: absolute;
+    width: 1540px;
+    height: 3000px;
+    padding-bottom: 1780px;
+    transform: translateX(701px); /* Pindahkan gambar ke kiri */
+  }
+
+  .landing-page .rectangle {
+    position: absolute;
+    width: 1920px;
+    height: 78px;
+    top: 0;
+    left: 0;
+  }
+  
+
+  .landing-page .rectangle {
+    position: absolute;
+    width: 1910px;
+    height: 78px;
+    top: 0;
+    left: 0;
+  }
+  
+
+  .landing-page .text-wrapper {
+    height: 60px;
+    top: 0;
+    padding-right:50px;
+    font-family: "League Spartan", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 60px;
+    white-space: nowrap;
+  }
+
+  .landing-page .overlap-group {
+    position: absolute;
+    width: 482px;
+    height: 52px;
+    transform: translateX(450px);
+  }
+  
+  .landing-page .overlap-2 {
+    position: absolute;
+    width: 260px;
+    height: 526px;
+    top: 182px;
+    transform: translateX(1510px);
+    background-image: url(./img/rectangle-9-1.svg);
+    background-size: 100% 100%;
+  }
+
+  .landing-page .overlap-3 {
+    position: absolute;
+    width: 260px;
+    height: 526px;
+    top: 182px;
+    transform: translateX(810px);
+    background-image: url(./img/rectangle-10-1.svg);
+    background-size: 100% 100%;
+  }
+
+  .landing-page .overlap-group-2 {
+    position: absolute;
+    width: 260px;
+    height: 526px;
+    top: 182px;
+    transform: translateX(-160px);
+    background-image: url(./img/rectangle-11-1.svg);
+    background-size: 100% 100%;
+  }
+
+  .landing-page .overlap-4 {
+    position: absolute;
+    width: 260px;
+    height: 526px;
+    top: 180px;
+    transform: translateX(-320px);
+    background-image: url(./img/rectangle-12-1.svg);
+    background-size: 100% 100%;
+  }
+
+  .image {
+    transform: translateX(-40px) translateY(40px) scale(1.2); /* Memperkecil gambar menjadi 80% dari ukuran aslinya */
+  }
+
+  .p {
+    padding-right: 70px;
+    line-height: 1.2 !important;  /* Atur sesuai kebutuhan */
+    font-size: 24px !important;
+    padding-top: 55px;
+
+  }
+
+  .image-2{
+    transform: translateX(-40px) translateY(40px) scale(1.1); /* Memperkecil gambar menjadi 80% dari ukuran aslinya */
+  }
+
+  .image-3{
+    transform: translateX(-40px) translateY(40px) scale(1.1); /* Memperkecil gambar menjadi 80% dari ukuran aslinya */
+  }
+
+  .img {
+    transform: translateX(-40px) translateY(40px) scale(1.1); /* Memperkecil gambar menjadi 80% dari ukuran aslinya */
+    
+}
+
+  
+  .text-wrapper-2 {
+    padding-right: 70px;
+    line-height: 1.2 !important;  /* Atur sesuai kebutuhan */
+    font-size: 24px !important;
+    padding-top: 55px;
+  }
+  
+  .text-wrapper-3 {
+    padding-right: 70px;
+    line-height: 1.2 !important;  /* Atur sesuai kebutuhan */
+    font-size: 24px !important;
+    padding-top: 55px;
+  }
+
+  .text-wrapper-4 {
+    padding-right: 70px;
+    line-height: 1.2 !important;  /* Atur sesuai kebutuhan */
+    font-size: 24px !important;
+    padding-top: 55px;
+  }
+
+  .whatsapp-image-2 {
+    display: none;
+  }
+  
+  .landing-page .overlap-5 {
+    position: absolute;
+    width: 1280px;
+    height: 750px;
+    top: 2300px;
+    left: 662px;
+    background-image: url('/img/rectangle-13.svg');
+    background-size: 10%;
+    background-repeat: no-repeat; /* Tambahan untuk memastikan gambar tidak berulang */
+    background-color: #f0f0f0; /* Tambahan warna latar belakang untuk debugging */
+}
+
+
+  .menu-icon {
+    align-items: center;
+    font-size: 50px;
+    display: block;
+    position: absolute; /* Atau absolute, tergantung konteks */
+    z-index: 10; /* Pastikan z-index lebih tinggi dari gambar */
+    width: 68px;
+    height: 71px;
+    top: 21px;
+    left: 950px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+}
+
+
+@media (max-width: 425px) {
+
+  .landing-page .text-wrapper-9 a {
+    left: 1038px;
+    color: #5b3f2b;
+    position: absolute;
+    height: 24px;
+    top: 24px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+    text-decoration: none;
+    display: none;
+  }
+
+  .landing-page .text-wrapper-8 a {
+    left: 1038px;
+    color: #5b3f2b;
+    position: absolute;
+    height: 24px;
+    top: 24px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+    text-decoration: none;
+    display: none;
+  }
+
+  .landing-page {
+    background-color: #ffefe7;
+    display: flex;
+    flex-direction: column; /* Ubah menjadi column untuk layout vertikal */
+    align-items: center; /* Pusatkan konten secara horizontal */
+    width: 100%;
+  }
+  
+  .landing-page .div {
+    background-color: #ffefe7;
+    width: 1930px;
+    height: 3046px;
+    position: relative;
+  }
+  
+  
+  .landing-page .desain-tanpa-judul {
+  position: absolute;
+  width: 1050px;
+  height: auto;
+  transform: translateX(680px); /* Pindahkan gambar ke kiri */
+  object-fit: cover;
+  }
+
+  .landing-page .overlap-4 {
+    position: absolute;
+    width: 340px;
+    height: 526px;
+    top: 182px;
+    left: 1283px;
+    background-image: url(./img/rectangle-12-1.svg);
+    background-size: 100% 100%;
+  }
+
+  .landing-page .body { 
+    position: absolute;
+    width: 1240px;
+    height: 3000px;
+    padding-bottom: 1780px;
+    transform: translateX(701px); /* Pindahkan gambar ke kiri */
+  }
+
+
+  .landing-page .text-wrapper {
+    height: 60px;
+    top: 0;
+    padding-right:50px;
+    font-family: "League Spartan", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 60px;
+    white-space: nowrap;
+  }
+
+  .landing-page .overlap-group {
+    position: absolute;
+    width: 482px;
+    height: 52px;
+    transform: translateX(450px);
+  }
+  
+  .landing-page .overlap-2 {
+    position: absolute;
+    width: 260px;
+    height: 526px;
+    top: 182px;
+    transform: translateX(1510px);
+    background-image: url(./img/rectangle-9-1.svg);
+    background-size: 100% 100%;
+  }
+
+  .landing-page .overlap-3 {
+    position: absolute;
+    width: 260px;
+    height: 526px;
+    top: 182px;
+    transform: translateX(810px);
+    background-image: url(./img/rectangle-10-1.svg);
+    background-size: 100% 100%;
+  }
+
+  .landing-page .overlap-group-2 {
+    position: absolute;
+    width: 260px;
+    height: 526px;
+    top: 182px;
+    transform: translateX(-160px);
+    background-image: url(./img/rectangle-11-1.svg);
+    background-size: 100% 100%;
+  }
+
+  .landing-page .overlap-4 {
+    position: absolute;
+    width: 260px;
+    height: 526px;
+    top: 180px;
+    transform: translateX(-320px);
+    background-image: url(./img/rectangle-12-1.svg);
+    background-size: 100% 100%;
+  }
+
+  .image {
+    transform: translateX(-40px) translateY(40px) scale(1.2); /* Memperkecil gambar menjadi 80% dari ukuran aslinya */
+  }
+
+  .p {
+    padding-right: 70px;
+    line-height: 1.2 !important;  /* Atur sesuai kebutuhan */
+    font-size: 24px !important;
+    padding-top: 55px;
+
+  }
+
+  .image-2{
+    transform: translateX(-40px) translateY(40px) scale(1.1); /* Memperkecil gambar menjadi 80% dari ukuran aslinya */
+  }
+
+  .image-3{
+    transform: translateX(-40px) translateY(40px) scale(1.1); /* Memperkecil gambar menjadi 80% dari ukuran aslinya */
+  }
+
+  .img {
+    transform: translateX(-40px) translateY(40px) scale(1.1); /* Memperkecil gambar menjadi 80% dari ukuran aslinya */
+    
+}
+
+  
+  .text-wrapper-2 {
+    padding-right: 70px;
+    line-height: 1.2 !important;  /* Atur sesuai kebutuhan */
+    font-size: 24px !important;
+    padding-top: 55px;
+  }
+  
+  .text-wrapper-3 {
+    padding-right: 70px;
+    line-height: 1.2 !important;  /* Atur sesuai kebutuhan */
+    font-size: 24px !important;
+    padding-top: 55px;
+  }
+
+  .text-wrapper-4 {
+    padding-right: 70px;
+    line-height: 1.2 !important;  /* Atur sesuai kebutuhan */
+    font-size: 24px !important;
+    padding-top: 55px;
+  }
+
+  .whatsapp-image-2 {
+    display: none;
+  }
+  
+  .landing-page .overlap-5 {
+    position: absolute;
+    width: 1280px;
+    height: 750px;
+    top: 2300px;
+    left: 662px;
+    background-image: url(./img/rectangle-13.svg);
+    background-size: 10%
+  }
+
+  .menu-icon {
+    align-items: center;
+    font-size: 50px;
+    display: block;
+    position: absolute; /* Atau absolute, tergantung konteks */
+    z-index: 10; /* Pastikan z-index lebih tinggi dari gambar */
+    width: 68px;
+    height: 71px;
+    top: 21px;
+    left: 1050px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+}
+
+@media screen and (max-width: 768px){
+  .landing-page .div {
+    background-color: #FFFF;
+    width: 1930px;
+    height: 3046px;
+    position: relative;
+  }
+
+  
+}
+
+@media screen and (max-width: 1024px){
+
+  .landing-page .div {
+    background-color: #FFFF;
+    width: 1930px;
+    height: 3046px;
+    position: relative;
+  }
+  
+}
+
+@media screen and (max-width: 1440px){
+
+  .landing-page .div {
+    background-color: #FFFF;
+    width: 1930px;
+    height: 3046px;
+    position: relative;
+  }
+  
+}
